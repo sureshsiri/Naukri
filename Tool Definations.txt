@@ -1,0 +1,15 @@
+Tool Definations:
+
+GIt: Git is a open-source version control system,it is used to handle small and large projects with speed and efficiency.
+
+Maven: Maven is a declarative build automation tool.That handles the application building and packaging into Ear/war/jar format.
+
+Docker: Docker is open-source containerization platform which enables the user to deploy,manage application isolatedly used the namespace techique.
+
+Kubernetes(k8s): Kubernetes is a open-source container orchestration tool,It is used to managing,scaling,controling clusters.
+
+Ansible: Ansbile is open-source software configuration managemnet tool.We can also provision infrastruture, application deployment.
+
+Terraform: HashiCorp Terraform is an infrastructure as code tool ,that allows you to build, change, and version on-prem infrastructure safely and efficiently from the cloud.
+
+Splunk:

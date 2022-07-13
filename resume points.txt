@@ -1,0 +1,4 @@
+Resume points:
+* Knowledge of virtualization and containerization (e.g., VMware, Hyper-V, Docker, Kubernetes)
+* Good troubleshooting skills for Jenkins pipelines and deployments.
+* 

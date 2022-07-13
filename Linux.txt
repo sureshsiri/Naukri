@@ -1,0 +1,43 @@
+what is the difference between find and grep command in unix?
+The main difference between the two is that grep is used to search for a particular string in a file whereas find is used to locate files in a directory
+
+what is awk command in unix
+AWK command in Linux., AWK is suitable for  search particular patters, by using variables and soo on.
+
+what is sed command?
+SED command in UNIX stands for stream editor and it can perform lots of functions on file like searching, find and replace, insertion or deletion.
+
+what is ssh-copy-id command?
+ssh-copy-id command is to sends the private key to current pc to another location.
+ssh-copy-id -i .~/.ssh/name.key(private key) myuser@192.168.10.13
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

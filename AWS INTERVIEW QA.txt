@@ -1,0 +1,151 @@
+What is cloud computing?
+In the simple terms,cloud computing is technology where resources is provided as a service through internet to a user.
+
+what are the cloud computing provider we had?
+Amazon Web Services (AWS) (2006) started offering services.
+Microsoft Azure.
+Google Cloud.
+Alibaba Cloud.
+IBM Cloud.
+Oracle.
+
+Aws:
+The full form of AWS is Amazon Web Services. It is a platform that offers flexible, reliable, scalable, easy-to-use and, cost-effective cloud computing services.
+
+*In 2006, Amazon Web Services (AWS) began offering IT infrastructure services.
+
+advantages of aws:
+User-friendly (UI)
+Flexible (ANYWHERE)
+Secure 
+Cost-effective (PAY AS YOU USE)
+Reliable 
+Scalable and Elastic 
+Highly Performance.
+
+Disadvantages of AWS
+Limitations
+Lack of Experts
+Price Variations(region)
+General Issues
+
+Companies using AWS?
+1) Netflix, 2)Adobe 3)pinterest 4) spotify 5) facebook 6) linkdin 7) NASA
+
+how many cloud computing modules:
+1.deployment module --->public cloud,private cloud, hybrid cloud.
+2.service module.----> IAAS,PAAS,SAAS.
+
+EC2: EC2 is a cloud platform provided by Amazon that offers secure, and resizable compute capacity.
+
+BENFITS OF EC2:
+1.Elastic instance scalable.(any shape).
+2.Flexible(anywhere).
+3.Completly Controlled.
+4.Reliable (crushes hdd)
+5.Secure   
+6.Inexpensive (pay-as-you-use)
+7.easy to start. 
+
+Setup process:
+1.choose AMI(amazon Machine Image).
+2.Choose Instance Type
+3.Configure Instance.
+4.Add storage.
+5.Add tags.
+6.Configure Security Group
+7.Lanch.
+
+IAM: IDENTITY AND ACCESS MANAGEMENT.
+ex:developer,dbadmin,networking
+modules:users,policies,Groups,Roles.
+users:the user that we create in IAM
+policies:We create policies to assign permission to a user, group, role or resource.
+Groups — The users created can also be divided into groups
+Roles — An IAM role is an IAM entity that defines a set of permissions for making AWS service requests. 
+
+Features of IAM:
+1.Enhanced security.ex:- control over cyberattack.
+2.Complete Control :- root has every access.
+3.Reduced Cost:- specified services are used,less bill.
+4.Improved User exp:-- less UI,more clear.
+
+types of storage in AWS:
+1.S3
+2.EBS(Elastic Block Store)
+3.EFS(Elastic File System)
+4.S3 GLACIER.
+5.STOAGE GATEWAY
+6.SNOWBALL EDGE.
+
+EBS(Elastic Block Store):
+* Like how harddisk is required for computers,similarly to store data for some the aws services we Use this Block store.
+* As a service EBS , we cann't use it directly, until it is associated to another service.
+* Services that uses EBS are 1.Ec2 2.ECS 3.RDS 4.Redis.
+* Types of storage that we have in AWS 1. Block level 2. File Storage 3.Object storage.
+* We can use EBs, EFS/Fsx ,s3 for EC2 machine,But when there is like an os type of things we use only EBS.we cann't lanch os with s3 or efs.
+* ONe EC2 machine can connect upto 16 Ebs. also for 16 ec2 machines we can use one EBS also.But there is a limitation.by default in aws to establish commution between ec2 and Ebs while lanching they use hypervisors they are  1. Xen HYperVisor 2. Nitro Hypervisor (advanced,supprts extra ebs) ...
+*By default Aws will creates the same copy of Ebs into 2 more different copies in different different availablilty zones for additional security purpose.
+* Types of EBS 1.SSD 2.HDD 3.PREVIOUS GENERATION.
+i).SSD: ssd are very fast in processing iops processing per second. whereas
+ii).HDD: hdd are slow compared to ssd and It's used when there is big data and lessly used which is low throughput speed.and previous gen are very rare to use.
+* Again SSD are classified into 2 catageories.
+1.GENERAL PURPOSE --> 1.GP2  2.GP3(FAST)
+2.PROVISIONED PURPOSE --->1. iO1. 2. io2. 3. io express(FAST). #FASTER than preivous 
+* Again HDD are classified into 2 catageories:
+1.ST1(FAST) 2.SD1
+
+
+S3:Amazon S3 or Amazon Simple Storage Service is a service offered by Amazon Web Services that provides object storage through a web service interface.
+
+*It's the second service developed in aws.
+*max storage 5TB. free trail 5gb.
+*Static website hosting.
+*folders called as Bucket.
+*files are called as objects.
+
+
+benfits:
+1.storage scalability.
+2.Virus Protection.
+3.Availability (3 copies).(security)
+4.Storing at Cloud.(flexibility)
+5.SSD storage type.
+6.pay as you use.
+7.Versioning.
+
+
+
+
+
+
+
+
+
+
+
+
+VPC:Virtual Privare Network.
+LAN:Local Area Network
+MAN:Metro Area Network
+WAN:Wide Area Network.
+
+subnet:A subnet, or subnetwork, is a network inside a network.
+
+
+
+
+
+RDS:Amazon Relational Database Service (Amazon RDS) makes database configuration, management, and scaling easy in the cloud. Automate tedious tasks such as hardware provisioning, database arrangement, patching.
+
+
+
+EBS:Amazon Elastic Block Store (EBS) is a high-performance block storage solution used within Amazon EC2 for throughput and transaction workloads of any size, at any time. It handles a diverse range of workloads, such as relational and non-relational databases, and enterprise applications.
+
+AMAZON S3 GLACIER: Amazon S3 Glacier is a secure, durable, and extremely low-cost Amazon S3 storage class for data archiving and long-term backup.
+
+LAMBDA:
+
+API GATEWAY:
+
+elb:https://www.youtube.com/watch?v=YaHes97pnDg&ab_channel=Intellipaat

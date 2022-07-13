@@ -1,0 +1,30 @@
+Splunk: Splunk is a basically a log monitoring software platform to search, analyze and visualize the machine-generated data gathered from the websites, applications, servers, devices etc.
+
+* Rob Das and Eric Swan co-founded this technology in the year 2003
+* splunk default port No: 8000
+* Splunk uses Search processing language (SPL).
+* out of 100 companes 92% will use Splunk for monitoring purpose.
+* Splunk stores data in the form of Buckets.
+* Splunk Enterprise edition will support i) linux(98% will use this)  ii) windows iii) Mac
+
+Splunk Components:
+1.Forwarder-->is used to collect the monitoring data.
+2.indexers --> Indexers is used to store the data in the volumes.
+3.Search Heads --> These are used to search the data in the volumes for decison purpose.
+
+Splunk Features:
+1.Monitoring System Performance (cpu,mem,disk)
+2.Complete Data information (which helps to take decison.)
+3.Security cognizance  --> due to logs we have protection from hackers.
+4.Monitoring system health --> email notifications before health condition is worse.
+
+Splunk Advantages.
+1.Splunk creates analytical reports with interactive charts, graphs, and tables, and shares them with others which is productive for users.
+2.Splunk is scalable and easy to implement.
+3.Splunk can automatically find useful information enclosed in your data, so you don’t have to identify it yourself.
+4.It helps in saving your searches and tags which are recognized as important information so that it can make your system smarter.
+
+Splunk Disadvantages.
+1.It can be expensive for very large data volumes.
+2.Dashboard is a bit harsh as compared to other monitoring tool.
+

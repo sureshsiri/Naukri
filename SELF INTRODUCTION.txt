@@ -1,0 +1,60 @@
+Hi, Am Suresh Siripuram,i have completed my bachelor degree in computer science at satavahana University in the year of 2017.and i started my carrier in IT in the year of 2018.currently i have 4+ years of experience in working with DevOps tools,
+currently am working in Snovaspace Information Systems..My roles in my running Organization.
+
+Actually
+there are 2 private Data centers
+which in titan and polaris.
+we had same clusters with same copy in both the data center for security perpose.
+my role is to
+
+1.Managing whole Docker swarm cluster for T-mobile application.
+i.e taking care or  health checking status of the nodes.
+Balancing the traffic through scaling up the scaling down the replicas count for an application.
+Properly having an eye on Memory spcae , Disk space , Cpu utilization of the servers.
+
+2.Handling complete Patches & upgrades
+like weblogic patching, unix-patching , vulnerabilty patching.
+in patching we use generally ansible adhoc commands to check the status or get uptime or hostnames from the utlitybox to get result of all running nodes which are in the inventory.
+
+also if patching is needed to update from our end we used to run the playbooks which and execute on worker node from utilbox.
+
+
+3.Give Access to the users in Bit-bucket.
+creating the users in the bitbucket.
+granting the permissions like
+pullrequest readaccessor write access
+webhooks      "" 			""
+pipelines     ""             ""
+issues        ""             ""
+Repositories   "" 			""
+
+
+4.Granting Jenkins User access permissions.
+like read permission, build permission,configure permission,update permission,delete permission..
+Also have the handful experience in working with pipeline scripts.
+
+
+
+5.Handling whole Appdynamics alerts:
+like cpu spcae is exceeded more than 80%
+like mem spcae is exceeded more than 80%
+like disk space is exceded in the worker node more than 80%
+
+6.Taking care of the Logs using Splunk.
+
+
+In my previous organization which is Revionsoft Technologies.
+i used to work the KRIOS PROJECT.
+kraios: kraios is a application to track and view the information about the employee details like his coupons, Leaves,pay slips,cabs,Expenses,performance reviews,Time sheets,Taxs management information for the employes..
+
+Roles:
+nclm:Netguard certificate Lifecycle management.
+
+uses:securing the application urls using ssl certificate.
+
+
+
+
+
+
+

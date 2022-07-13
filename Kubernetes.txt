@@ -1,0 +1,27 @@
+what is kubernetes?
+Kubernetes is an open-source container orchestration system for automating software deployment, scaling, and management.or its a cluster management tool
+
+In which language kubernetes is designed?
+GO 
+--2014 Developed by google , but maintaining CNCF (Cloud Native Computing Foundation).
+
+Mention the kubernetes service in Clound environment?
+GCP-->GKE (Google Kubernetes Engine)
+AZURE-->AKS (Azure Kubernetes Service)
+AWS-->EKS  (Amazon Elastic Kubernetes Service).
+
+
+eks setup on aws.
+
+
+
+
+
+
+
+
+
+eksctl create cluster --name Enfec \
+--region us-east-1 \
+--node-type t2.micro
+

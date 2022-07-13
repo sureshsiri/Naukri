@@ -1,0 +1,2 @@
+what is patching?
+Patching is a process to repair a vulnerability or a flaw that is identified after the release of an application or a software.

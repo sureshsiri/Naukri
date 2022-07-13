@@ -1,0 +1,152 @@
+What is Unix?(17-apr-2021)
+*Unix was introduced by Ken thompson(pascal) and then later Denis Ritchie(C) in AT&T Bell labs.
+*It was release in the year of 1969.
+*At the beggining it was not commericial(free for schools and university).later after knowing flavor they started selling it.
+* linus torvalds succeded in creating the same exact copy of kernal(replica) in the year of 1991.then released kernal copy as free...
+
+List of Distros?
+1.Arch ---> 1.Manjaro Linux 2.ArcoLinux (rare)
+2.Debain --->1.linux MINT 2.Ubuntu 3.Elementary OS 4. Kali Linux--apt package manager
+3.Redhat --->1.CentOS(yum) 2.Fedora(dns) 3.Redhat Enterprise Linux(RHEL)(yum)---
+4.Slackware-->1.Slackware Linux(rare)
+
+linux Components:
+The architecture of a Linux System consists of the following layers −(diagram)
+Hardware layer − Hardware consists of all peripheral devices (RAM/ HDD/ CPU etc).
+Kernel − It is the core component of Operating System, interacts directly with hardware, provides low level services to upper layer components.
+Shell − An interface to kernel, hiding complexity of kernel's functions from users. The shell takes commands from the user and executes kernel's functions.
+Utilities − Utility programs that provide the user most of the functionalities of an operating systems.
+
+There are different types of Shell programs(or)interpretors are available?
+-bourne shell(sh)
+-korn shell(ksh)
+-bourne again shell(bash)
+-C Shell(csh)
+-TENEX/TOPS Cshell(tcsh).
+
+
+What are the features of the Linux operating system?
+1.Portable=it can run across any hardware platforms
+2.Open Source=It can be used freely and the source code is also freely distributed and freely modifiable
+3.Multi-User/Multi-Programming operating system=Multiple users can use the linux operating at the same time and can share the underlying hardware resources of the computer like RAM,CPU,HDD etc.
+4.Hierarchial Filesystem=There is only one single root for the Filesystem of the linux
+5.Shell=a special interpreter program that runs on top of the kernal helping the users to interact with the linux Kernal
+6.6.Highly Secured=There are various different levels of security is provided by the Linux operating system
+-user authentication
+-data encryption
+-access control restrictions on
+-User Process.
+
+What are virtual machines?
+................two machines in one -----
+what is hypervisor?
+--------------ex: oracle,hyperV,Vmware----
+*#1 Bios->Enable virtualization
+why Oracle Virtual-Box?
+.......vagrant.....
+
+why file system format?
+..........
+What is File systems?
+windows:-
+-FAT stands for File Allocation Table=is suitable for storage devices of moderate size(1gb maxfile)
+-NTFS=New technology File System
+
+linux file systems:-
+
+Linux operating system uses File System technics for storing and organizing the physical storage device memory.The linux file system uses hierachial model.
+Linux supports multiple File System Types:
+1.Ext (EXTENDED FILE SYSTEM).
+2.Ext2
+3.Ext3
+4.Ext4(*default filesystem)
+5.JFS
+6.XFS
+7.Btrfs
+
+What are the standard directories that comes as part of the Linux Filesystem?
+/
+"/"-is the root/parent of the Filesystem
+|-1.bin=core commands of linux are placed here(shell command cat/sh/ls)
+|-2.boot=boot loader files are located
+|-3.dev=all the external devices are mounted like usb and dvd
+|-4.etc=The installed Software packages related configuration files are kept in this directory
+|-5.home=For each linux user there is a home directory created under/home/$USER,he has only access to the contents of his home directory only(by default)
+|-6.lib=libraries of installed software packages are placed here,so that these can be shared across
+|-7.media=all the media devices like musicplayers,usb sticks etc are mounted here
+|-8.mnt=external storage devices like network drives,mount volumes are mounted here
+|-9.opt=optional software packages are located under/opt directory(package managers)
+|-10.proc=Linux treats everything as a file,Even a program under execution which is called process is also represented as a file in Linux operating system,to keep track of its running information.and all these process files are stored/kept in/proc
+|-11.root=root user home directory
+|-12.sbin=super user bin directory,here all the commands that can be executed by super user are available.
+|-13.tmp=/tmp contains all the temporary files which will be automatically deleted for every system reboot
+|-14.usr=the utilities are files that has to be shared across the users of the linux are placed in usr.
+|-15.var=system logs and variable data files are kept here
+Note:-you might find additional directories if you see in your linux install,this differs based on the linux distro you are using.
+
+
+How to run bash commands in Linux operating system?
+tab=autocompletion of commands/files/directories
+control+c=to stop/cancel running command
+control+l=clear screen
+control+a=move cursor to the beggining of the line
+control+e=move cursor to the end of the line
+control+left/right arrow=move one word left/right
+control+shift+c=copy
+control+shift+v=paste
+control+u=delete the characters from current cursor position to the begining of the line
+control+k=delete to the end of the line
+up/down allows=browsing through history of commands
+control+r=search commands
+*man command=browing the document of the commands.
+
+
+What are the operations we can do on a computer using operating system.
+1.File Management commands
+2.User Management commands
+3.Software package management
+4.Process related commands
+5.device management commands
+-cpu related commands
+-storage commands
+6.networking management
+
+
+#1 File/Folder Management commands: (05-may-2021)
+1.pwd
+2.cd
+3.ls
+4.touch
+5. cat
+6. mv
+7. cp
+8. mkdir
+9. rmdir
+10. rm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
